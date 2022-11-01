@@ -5,6 +5,11 @@
     padding: 0.5vw 1vw;
   }
 
+  .flex-container a {
+    margin: 0;
+    text-align: left;
+  }
+
   #navbar div a {
     text-align: center;
   }
@@ -18,17 +23,11 @@
     display: flex;
     flex-wrap: nowrap;
   }
-
-  .flex-container a {
-    margin: 0;
-    text-align: left;
-  }
 }
 
 @media only screen and (min-width: 600.1px) {
   #navbar {
     float: left;
-    /* position: relative; */
     margin: 1em;
     padding: 1em;
     width: 15vw;
