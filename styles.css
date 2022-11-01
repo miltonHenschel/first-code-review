@@ -5,14 +5,14 @@
     padding: 0.5vw 1vw;
   }
 
-  .flex-container a {
-    margin: 0;
-    text-align: left;
-  }
-
   nav .flex-container {
     display: flex;
     flex-wrap: nowrap;
+  }
+
+  .flex-container a {
+    margin: 0;
+    text-align: left;
   }
 
   #navbar div a {
@@ -33,7 +33,7 @@
     width: 15vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: fixed;
-    background-color: #a52a2a;
+    background-color:#a52a2a;
   }
 
   #main-doc {
@@ -69,7 +69,7 @@
 body {
   font-family: 'Times New Roman', Times, serif;
   background-color:#a52a2a;
-  color:#000;
+  color:rgb(5, 3, 3);
   width: 100%;
   margin: auto;
   text-align: justify;
